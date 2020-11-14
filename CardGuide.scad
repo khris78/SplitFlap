@@ -40,7 +40,7 @@ difference() {
 
     cylinder(h=0.6, r=radius_splitflap+ext_border+slack);
 
-    translate([0, radius_splitflap+ext_border-5, 0])
+   #translate([-10, -radius_splitflap-ext_border-5, 0])
         cube([10, 10, 0.6]);
 }
 
